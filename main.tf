@@ -11,7 +11,7 @@ module "labels" {
 ##--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 resource "digitalocean_container_registry" "main" {
   count                  = var.enabled ? 1 : 0
-  name                   = "yadav"
+  name                   = var.name
   subscription_tier_slug = var.subscription_tier_slug
   region                 = var.region
 }
