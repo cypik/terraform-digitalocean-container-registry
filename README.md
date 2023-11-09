@@ -16,7 +16,7 @@ This Terraform configuration is designed to create and manage a DigitalOcean con
 ## Usage
 To use this module, you should have Terraform installed and configured for DIGITALOCEAN. This module provides the necessary Terraform configuration for creating DIGITALOCEAN resources, and you can customize the inputs as needed. Below is an example of how to use this module:
 
-#  Example: 
+#  Example:
 You can use this module in your Terraform configuration like this:
 
 ```hcl
