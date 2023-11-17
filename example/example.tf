@@ -3,7 +3,7 @@ provider "digitalocean" {
 }
 
 locals {
-  name        = "app"
+  name        = "opz"
   environment = "test"
   region      = "nyc3"
 }
