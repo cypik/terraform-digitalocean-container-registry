@@ -13,7 +13,7 @@ variable "environment" {
 variable "managedby" {
   type        = string
   default     = "terraform-do-modules"
-  description = "ManagedBy, eg 'terraform-do-modules' or 'baldev@opzO.com'"
+  description = "ManagedBy, eg 'terraform-do-modules' or 'baldev@cypik.com'"
 }
 
 variable "label_order" {
