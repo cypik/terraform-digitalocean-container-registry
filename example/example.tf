@@ -3,7 +3,7 @@ provider "digitalocean" {
 }
 
 locals {
-  name        = "opz"
+  name        = "cypik"
   environment = "test"
   region      = "nyc3"
 }
