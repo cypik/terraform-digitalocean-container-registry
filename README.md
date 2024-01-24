@@ -79,7 +79,7 @@ This Terraform module is provided under the **MIT** License. Please see the [LIC
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | Whether to create the resources. Set to `false` to prevent the module from creating any resources. | `bool` | `true` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | The name of the container registry | `string` | `""` | no |
 | <a name="input_expiry_seconds"></a> [expiry\_seconds](#input\_expiry\_seconds) | Number of seconds after creation for token to expire. | `number` | `1576800000` | no |
-| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `cypik`,`application`. | `list(any)` | `[]` | no |
+| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `cypik`,`application`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
 | <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'cypik' or 'hello@cypik.com' | `string` | `"cypik"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` | `""` | no |
 | <a name="input_region"></a> [region](#input\_region) | The slug identifier for the region | `string` | `""` | no |

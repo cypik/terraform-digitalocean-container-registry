@@ -17,9 +17,9 @@ variable "managedby" {
 }
 
 variable "label_order" {
-  type        = list(any)
-  default     = ["name", "environment"]
-  description = "Label order, e.g. `cypik`,`application`."
+  type         = list(any)
+  default      = ["name", "environment"]
+  description  = "Label order, e.g. `cypik`,`application`."
 }
 
 variable "enabled" {
