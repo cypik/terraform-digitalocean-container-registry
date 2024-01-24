@@ -1,6 +1,7 @@
 # Terraform-digitalocean-container-registry
 # Terraform DigitalOcean cloud container-registry Module
 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -61,7 +62,7 @@ This Terraform module is provided under the **MIT** License. Please see the [LIC
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/cypik/terraform-digitalocean-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | cypik/labels/digitalocean | 1.0.1 |
 
 ## Resources
 
@@ -78,7 +79,7 @@ This Terraform module is provided under the **MIT** License. Please see the [LIC
 | <a name="input_environment"></a> [environment](#input\_environment) | The name of the container registry | `string` | `""` | no |
 | <a name="input_expiry_seconds"></a> [expiry\_seconds](#input\_expiry\_seconds) | Number of seconds after creation for token to expire. | `number` | `1576800000` | no |
 | <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `cypik`,`application`. | `list(any)` | `[]` | no |
-| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'terraform-do-modules' or 'hello@cypik.com' | `string` | `"cypik"` | no |
+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'cypik' or 'hello@cypik.com' | `string` | `"cypik"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` | `""` | no |
 | <a name="input_region"></a> [region](#input\_region) | The slug identifier for the region | `string` | `""` | no |
 | <a name="input_subscription_tier_slug"></a> [subscription\_tier\_slug](#input\_subscription\_tier\_slug) | The slug identifier for the subscription tier | `string` | `"starter"` | no |
